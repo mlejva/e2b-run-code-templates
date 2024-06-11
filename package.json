@@ -1,0 +1,20 @@
+{
+  "name": "e2b-run-code-templates",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "core-sdk-ts-runner": "tsx core-sdk-ts-runner.mts",
+    "core-sdk-js-runner": "tsx core-sdk-js-runner.mts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tsx": "^4.15.2"
+  },
+  "dependencies": {
+    "@e2b/code-interpreter": "^0.0.8",
+    "dotenv": "^16.4.5",
+    "e2b": "^0.16.1"
+  }
+}
