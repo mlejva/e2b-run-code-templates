@@ -9,12 +9,15 @@ This allows for an easy way to keep the context from previous code execution.
 Whereas the core SDK is using our `base` sandbox that has no Jupyter server running inside it and no context from previous code execution is kept by default.
 
 ## Getting started
-
-1. Install dependencies
+1. Set E2B API key in `.env`
+    ```
+    E2B_API_KEY=<your-e2b-api-key>
+    ```
+2. Install dependencies
     ```
     npm install
     ```
-2. Run the code with one of the following options
+3. Run the code with one of the following options
 - ✅ [TypeScript code runner with core SDK](./core-sdk/core-sdk-ts-runner.mts)
   - `npm run core-sdk-ts-runner`
 - ✅ [JavaScript code runner with core SDK](./core-sdk/core-sdk-js-runner.mts)
