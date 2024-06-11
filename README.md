@@ -9,7 +9,7 @@ This allows for an easy way to keep the context from previous code execution.
 Whereas the core SDK is using our `base` sandbox that has no Jupyter server running inside it and no context from previous code execution is kept by default.
 
 ## Getting started
-1. Set E2B API key in `.env`
+1. Set E2B API key in `.env`. Get your API key [here](https://e2b.dev/docs/getting-started/api-key)
     ```
     E2B_API_KEY=<your-e2b-api-key>
     ```
