@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "core-sdk-ts-runner": "tsx core-sdk-ts-runner.mts",
-    "core-sdk-js-runner": "tsx core-sdk-js-runner.mts"
+    "core-sdk-js-runner": "tsx core-sdk-js-runner.mts",
+    "core-sdk-python-runner": "tsx core-sdk-python-runner.mts"
   },
   "author": "",
   "license": "ISC",

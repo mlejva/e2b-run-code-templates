@@ -4,8 +4,8 @@ This repo showcases how to build a simple code runner using E2B.
 It showcases both how to run code in a base sandbox with our [core SDK](https://e2b.dev/docs/sandbox/overview) and also how to run code with our [code interpreter SDK](https://e2b.dev/docs/code-interpreter/installation).
 
 The biggest difference is that the code interpreter SDK is using a sandbox that has a Jupyter server running inside it and all the code is execute in it.
+This allows for an easy way to keep the context from previous code execution and also allows for an easy way to run code that creates visualization (which is typical for Jupyter notebooks).
 
-This allows for an easy way to keep the context from previous code execution.
 Whereas the core SDK is using our `base` sandbox that has no Jupyter server running inside it and no context from previous code execution is kept by default.
 
 ## Getting started
@@ -22,7 +22,8 @@ Whereas the core SDK is using our `base` sandbox that has no Jupyter server runn
   - `npm run core-sdk-ts-runner`
 - ✅ [JavaScript code runner with core SDK](./core-sdk/js-runner.mts)
   - `npm run core-sdk-js-runner`
-- [TODO] Python code runner with core SDK
+- ✅ [Python code runner with core SDK](./core-sdk/python-runner.mts)
+  - `npm run core-sdk-python-runner`
 
 - [TODO] TypeScript code runner with code interpreter SDK
 - [TODO] JavaScript code runner with code interpreter SDK
