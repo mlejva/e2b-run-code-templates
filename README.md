@@ -17,7 +17,7 @@ Whereas the core SDK is using our `base` sandbox that has no Jupyter server runn
     ```
     npm install
     ```
-3. Run the code with one of the following options
+3. Run the code with one of the following examples
 - ✅ [TypeScript code runner with core SDK](./core-sdk/core-sdk-ts-runner.mts)
   - `npm run core-sdk-ts-runner`
 - ✅ [JavaScript code runner with core SDK](./core-sdk/core-sdk-js-runner.mts)
