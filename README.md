@@ -1,4 +1,4 @@
-# How to run TypeScript, JavaScript, and Python code with E2B
+# How to run TS, JS, and Python code with E2B
 
 This repo showcases how to build a simple code runner using E2B.
 It showcases both how to run code in a base sandbox with our [core SDK](https://e2b.dev/docs/sandbox/overview) and also how to run code with our [code interpreter SDK](https://e2b.dev/docs/code-interpreter/installation).
