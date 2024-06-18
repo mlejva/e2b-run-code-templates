@@ -25,6 +25,7 @@ Whereas the core SDK is using our `base` sandbox that has no Jupyter server runn
 - ✅ [Python code runner with core SDK](./core-sdk/python-runner.mts)
   - `npm run core-sdk-python-runner`
 
-- [TODO] TypeScript code runner with code interpreter SDK
-- [TODO] JavaScript code runner with code interpreter SDK
-- [TODO] Python code runner with code interpreter SDK
+- ✅ [JavaScript code runner with code interpreter SDK](./code-interpreter-sdk/js-runner.mts)
+  - `npm run code-interpreter-sdk-js-runner`
+- ✅ [Python code runner with code interpreter SDK](./code-interpreter-sdk/python-runner.mts)
+  - `npm run code-interpreter-sdk-python-runner`

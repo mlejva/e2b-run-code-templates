@@ -6,15 +6,18 @@
   "scripts": {
     "core-sdk-ts-runner": "tsx core-sdk-ts-runner.mts",
     "core-sdk-js-runner": "tsx core-sdk-js-runner.mts",
-    "core-sdk-python-runner": "tsx core-sdk-python-runner.mts"
+    "core-sdk-python-runner": "tsx core-sdk-python-runner.mts",
+    "code-interpreter-sdk-python-runner": "tsx code-interpreter-sdk-python-runner.mts",
+    "code-interpreter-sdk-js-runner": "tsx code-interpreter-sdk-js-runner.mts"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^20.14.5",
     "tsx": "^4.15.2"
   },
   "dependencies": {
-    "@e2b/code-interpreter": "^0.0.8",
+    "@e2b/code-interpreter": "^0.0.9-multikernel-code-interpreterer.0",
     "dotenv": "^16.4.5",
     "e2b": "^0.16.1"
   }
