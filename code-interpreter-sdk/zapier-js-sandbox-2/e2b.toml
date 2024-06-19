@@ -9,7 +9,7 @@
 # import { Sandbox } from 'e2b'
 # const sandbox = await Sandbox.create({ template: 'zapier-js-sandbox-2' })
 
-start_cmd = "/home/user/.jupyter/start-up.sh"
+start_cmd = "/root/.jupyter/start-up.sh"
 dockerfile = "e2b.Dockerfile"
 template_name = "zapier-js-sandbox-2"
 template_id = "nroj656yivfldc7icfzt"
